@@ -7,11 +7,11 @@
 
 - 第一步：`Fork`我当前`island`仓库，即 [https://github.com/bytesfly/island](https://github.com/bytesfly/island)
 
-![](http://img2020.cnblogs.com/blog/1546632/202109/1546632-20210918224423979-1304989038.png)
+![](https://img2020.cnblogs.com/blog/1546632/202111/1546632-20211112104413154-992050666.png)
 
 - 第二步：在刚`Fork`的仓库设置(`Settings`)页面开启`GitHub Pages`功能
 
-![](http://img2020.cnblogs.com/blog/1546632/202109/1546632-20210918225610667-719903917.png)
+![](https://img2020.cnblogs.com/blog/1546632/202111/1546632-20211112104758702-781100833.png)
 
 然后，你就可以打开`https://<yourname>.github.io/island`看看效果了。
 

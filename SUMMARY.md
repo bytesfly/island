@@ -1,7 +1,8 @@
 * 文档指南
   * [快速部署](guide/quick-deploy.md)
 * 设计模式
-  * [概述](design-pattern/overview.md)
+  * [设计模式概述](design-pattern/overview.md)
+  * [面向对象设计原则](design-pattern/object-oriented-design-principles.md)
   * 创建型模式
     * [工厂模式三兄弟](design-pattern/factory-pattern.md)
     * [单例模式](design-pattern/singleton-pattern.md)
