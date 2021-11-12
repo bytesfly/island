@@ -1,0 +1,38 @@
+* 文档指南
+  * [快速部署](guide/quick-deploy.md)
+* 设计模式
+  * [概述](design-pattern/overview.md)
+  * 创建型模式
+    * [工厂模式三兄弟](design-pattern/factory-pattern.md)
+    * [单例模式](design-pattern/singleton-pattern.md)
+    * [原型模式](design-pattern/prototype-pattern.md)
+    * [建造者模式](design-pattern/builder-pattern.md)
+  * 结构型模式
+    * [适配器模式](design-pattern/adapter-pattern.md)
+    * [桥接模式](design-pattern/bridge-pattern.md)
+    * [组合模式](design-pattern/composite-pattern.md)
+    * [装饰模式](design-pattern/decorator-pattern.md)
+    * [外观模式](design-pattern/facade-pattern.md)
+    * [享元模式](design-pattern/flyweight-pattern.md)
+    * [代理模式](design-pattern/proxy-pattern.md)
+  * 行为型模式
+    * [职责链模式](design-pattern/chain-of-responsibility-pattern.md)
+    * [命令模式](design-pattern/command-pattern.md)
+    * [解释器模式](design-pattern/1.md)
+    * [迭代器模式](design-pattern/iterator-pattern.md)
+    * [中介者模式](design-pattern/mediator-pattern.md)
+    * [备忘录模式](design-pattern/2.md)
+    * [观察者模式](design-pattern/3.md)
+    * [状态模式](design-pattern/4.md)
+    * [策略模式](design-pattern/5.md)
+    * [模板方法模式](design-pattern/6.md)
+    * [访问者模式](design-pattern/7.md)
+* MySQL
+  * [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
+  * [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
+  * [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
+* 程序人生
+  * [工作中如何做好技术积累](life/study-vs-work.md)
+  * [如何证明你是程序员](life/how-to-prove-that-you-are-a-programmer.md)
+  * [程序员的谎言](life/what-are-the-most-common-lies-told-by-programmers.md)
+  * [程序员的酒后真言](life/drunk-post-of-a-programmer.md)

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>侠客岛</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="一个后端技术栈分享平台，主要收集后端相关的技术文档、读书笔记、专题学习等">
+    <meta name="keywords" content="侠客岛 后端 技术文档 读书笔记 专题学习"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="referrer" content="no-referrer"/>
+    <link rel="stylesheet" href="guide/css/vue.css">
+    <link rel="stylesheet" href="guide/css/sidebar.min.css"/>
+</head>
+<body>
+<div id="app">
+    <p>看山还是山，看水还是水。</p>
+</div>
+<script>
+    window.$docsify = {
+        name: '侠客岛',
+        logo: 'guide/images/logo.jpg',
+        repo: 'https://github.com/bytesfly/island',
+        loadSidebar: 'SUMMARY.md',
+        homepage: 'README.md',
+        subMaxLevel: 3,
+        //自动显示标题
+        autoHeader: true,
+        //自动跳转到页面顶部
+        auto2top: true,
+        //小屏设备下合并导航栏到侧边栏
+        mergeNavbar: true,
+        //搜索插件
+        search: {
+            placeholder: '搜索试试',
+            noData: '没有结果！',
+        },
+        plugins: [
+            // footer
+            function (hook) {
+                var footer = [
+                    '<hr/>',
+                    '<footer>',
+                    '<span>看山是山，看水是水；看山不是山，看水不是水；看山还是山，看水还是水。</span><br/>',
+                    '</footer>'
+                ].join('');
+
+                hook.afterEach(function (html) {
+                    return html + footer;
+                });
+            }
+        ]
+    }
+</script>
+<script src="guide/js/docsify.min.js"></script>
+<script src="guide/js/search.min.js"></script>
+<script src="guide/js/prism-java.min.js"></script>
+<script src="guide/js/emoji.min.js"></script>
+<script src="guide/js/zoom-image.min.js"></script>
+<script src="guide/js/docsify-copy-code.js"></script>
+<script src="guide/js/docsify-sidebar-collapse.min.js"></script>
+<script src="guide/js/docsify-plugin-flexible-alerts.js"></script>
+<script src="guide/js/vanilla-back-to-top.min.js"></script>
+
+<!-- 回到顶部功能 -->
+<script>
+    addBackToTop({
+        diameter: 56,
+        backgroundColor: 'rgb(66, 185, 131)',
+        textColor: '#fff',
+    });
+</script>
+
+<!-- 实现离线化 -->
+<script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('pwa.js')
+    }
+</script>
+
+</body>
+</html>
