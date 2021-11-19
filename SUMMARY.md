@@ -28,6 +28,9 @@
     * [策略模式](design-pattern/5.md)
     * [模板方法模式](design-pattern/6.md)
     * [访问者模式](design-pattern/7.md)
+* ANTLR4
+  * [书籍推荐](antlr4/introduction.md)
+  * [相关术语](antlr4/terms.md)
 * MySQL
   * [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
   * [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
