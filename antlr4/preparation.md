@@ -45,14 +45,51 @@ WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines, \r (Windows)
     <antlr.version>4.9.3</antlr.version>
 </properties>
 
-<dependency>
-    <groupId>org.antlr</groupId>
-    <artifactId>antlr4-runtime</artifactId>
-    <version>${antlr.version}</version>
-</dependency>
+<dependencies>
 
+    <dependency>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr4-runtime</artifactId>
+        <version>${antlr.version}</version>
+    </dependency>
 
+</dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr4-maven-plugin</artifactId>
+            <version>${antlr.version}</version>
+            <configuration>
+                <sourceDirectory>src/main/java/com/github/bytesfly/arr/antlr</sourceDirectory>
+                <outputDirectory>src/main/java/com/github/bytesfly/arr/antlr</outputDirectory>
+                <listener>true</listener>
+                <visitor>true</visitor>
+                <treatWarningsAsErrors>true</treatWarningsAsErrors>
+            </configuration>
+            <executions>
+                <execution>
+                    <id>antlr</id>
+                    <goals>
+                        <goal>antlr4</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
+    </plugins>
+</build>
 ```
 
-执行： `mvn antlr4:antlr4`
+另外注意`.g4`语法文件中应添加`@header`指定包名，如下：
+```text
+@header {package com.github.bytesfly.arr.antlr;}
+```
+
+然后在项目模块目录下执行： `mvn antlr4:antlr4`
+
+这样就能在上面指定的`outputDirectory`目录下生成ANTLR代码。
+
+完整例子见： [https://github.com/bytesfly/antlr-demo](https://github.com/bytesfly/antlr-demo)
 
