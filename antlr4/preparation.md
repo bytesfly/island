@@ -27,7 +27,9 @@ WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines, \r (Windows)
 ![](https://img2020.cnblogs.com/blog/1546632/202111/1546632-20211123145105347-1142571353.png)
 
 
-在`Hello.g4`文件上右键可以看到`Configure ANTLR…`和`Generate ANTLR Recognizer`。
+图中可以看到，`ANTLR`能够基于语法中的规则名自动创建出这样的一棵语法分析树。
+
+另外在`Hello.g4`文件上右键可以看到`Configure ANTLR…`和`Generate ANTLR Recognizer`。
 
 ![](https://img2020.cnblogs.com/blog/1546632/202111/1546632-20211123145720452-1438681234.png)
 
@@ -89,7 +91,7 @@ WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines, \r (Windows)
 
 然后在项目模块目录下执行： `mvn antlr4:antlr4`
 
-这样就能在上面指定的`outputDirectory`目录下生成ANTLR代码。
+这样`ANTLR`就能根据`.g4`语法文件并在上面指定的`outputDirectory`目录下自动生成代码。
 
 完整例子见： [https://github.com/bytesfly/antlr-demo](https://github.com/bytesfly/antlr-demo)
 
