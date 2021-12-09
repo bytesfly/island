@@ -1,4 +1,3 @@
-# 一文读懂MySQL的索引结构及查询优化
 
 回顾前文: [一文学会MySQL的explain工具](https://www.cnblogs.com/itwild/p/13424113.html)
 
