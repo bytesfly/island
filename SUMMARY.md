@@ -27,9 +27,9 @@
     * [状态模式](design-pattern/4.md)
     * [策略模式](design-pattern/5.md)
     * [模板方法模式](design-pattern/6.md)
-    * [访问者模式](design-pattern/7.md)
+    * [访问者模式](design-pattern/visitor-pattern.md)
 * ANTLR4
-  * [书籍推荐](antlr4/introduction.md)
+  * [简单介绍](antlr4/introduction.md)
   * [相关术语](antlr4/terms.md)
   * [环境准备](antlr4/preparation.md)
   * [快速上手](antlr4/quick-start.md)
