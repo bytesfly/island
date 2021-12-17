@@ -14,7 +14,7 @@
 
 语法规则为`ArrayInit.g4`，如下：
 
-```text
+```antlrv4
 /** Grammars always start with a grammar header. This grammar is called
  *  ArrayInit and must match the filename: ArrayInit.g4
  */
@@ -178,7 +178,7 @@ a+b*2
 
 语法规则为`Expr.g4`，如下：
 
-```text
+```antlrv4
 grammar Expr;
 
 @header {package com.github.bytesfly.calculator.antlr;}

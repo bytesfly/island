@@ -15,7 +15,7 @@
 
 - 在`IntelliJ IDEA`中新建`Hello.g4`文件，内容如下：
 
-```text
+```antlrv4
 grammar Hello;            // Define a grammar called Hello
 r  : 'hello' ID ;         // match keyword hello followed by an identifier
 ID : [a-z]+ ;             // match lower-case identifiers
@@ -85,7 +85,7 @@ WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines, \r (Windows)
 ```
 
 另外注意`.g4`语法文件中应添加`@header`指定包名，如下：
-```text
+```antlrv4
 @header {package com.github.bytesfly.arr.antlr;}
 ```
 

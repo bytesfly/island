@@ -33,6 +33,7 @@
   * [相关术语](antlr4/terms.md)
   * [环境准备](antlr4/preparation.md)
   * [快速上手](antlr4/quick-start.md)
+  * [语法设计](antlr4/grammar-design.md)
 * MySQL
   * [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
   * [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
