@@ -1,4 +1,3 @@
-# 程序员的谎言
 
 梦短梦长俱是梦，年来年去是何年。去年的今天，我还在上海，整理了 [请用一句话证明你是程序员](https://www.cnblogs.com/bytesfly/p/how-to-prove-that-you-are-a-programmer.html) 。而今天的我已回合肥工作半年多时间，很庆幸又见故乡庐州月。
 
