@@ -4,7 +4,7 @@
 
 ## 使用Listener转换数组
 
-完整源码见：[https://github.com/bytesfly/antlr-demo/tree/main/array-init/src/main/java/com/github/bytesfly/arr](https://github.com/bytesfly/antlr-demo/tree/main/array-init/src/main/java/com/github/bytesfly/arr)
+完整源码见：[https://github.com/bytesfly/antlr-demo/tree/main/array-init/](https://github.com/bytesfly/antlr-demo/tree/main/array-init/)
 
 效果如下图所示：
 
@@ -154,7 +154,7 @@ public void walk(ParseTreeListener listener, ParseTree t) {
 
 ## 使用Visitor构建计算器
 
-完整源码见：[https://github.com/bytesfly/antlr-demo/tree/main/calculator/src/main/java/com/github/bytesfly/calculator](https://github.com/bytesfly/antlr-demo/tree/main/calculator/src/main/java/com/github/bytesfly/calculator)
+完整源码见：[https://github.com/bytesfly/antlr-demo/tree/main/calculator/](https://github.com/bytesfly/antlr-demo/tree/main/calculator/)
 
 该程序能识别赋值语句并做加减乘除四则运算，效果大致如下。
 

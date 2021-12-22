@@ -67,6 +67,3 @@ GitHub： [https://github.com/antlr/antlr4](https://github.com/antlr/antlr4)
 - 第三部分展示了自定义ANTLR生成的语法分析器的错误处理机制的方法。随后，你会学到在语法中嵌入动作的方法——在某些场景下，这样做比建立树并遍历之更简单，也更有效率。此外，你还将学会使用语义判定(`semantic predicate`)来修改语法分析器的行为，以便解决一些充满挑战的识别难题，例如识别`XML`和`Python`中的上下文相关的换行符。
 
 - 第四部分是参考章节，详细列出了ANTLR语法元语言的所有规则和ANTLR运行库的用法。
-
-
-[ANTLR应用实例](https://0x100.club/projects/antlr-example.html)
