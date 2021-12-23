@@ -25,7 +25,7 @@
     * [备忘录模式](design-pattern/2.md)
     * [观察者模式](design-pattern/3.md)
     * [状态模式](design-pattern/4.md)
-    * [策略模式](design-pattern/5.md)
+    * [策略模式](design-pattern/strategy-pattern.md)
     * [模板方法模式](design-pattern/template-method-pattern.md)
     * [访问者模式](design-pattern/visitor-pattern.md)
 * ANTLR4
