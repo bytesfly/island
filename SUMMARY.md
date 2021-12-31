@@ -19,7 +19,7 @@
   * 行为型模式
     * [职责链模式](design-pattern/chain-of-responsibility-pattern.md)
     * [命令模式](design-pattern/command-pattern.md)
-    * [解释器模式](design-pattern/1.md)
+    * [解释器模式](design-pattern/interpreter-pattern.md)
     * [迭代器模式](design-pattern/iterator-pattern.md)
     * [中介者模式](design-pattern/mediator-pattern.md)
     * [备忘录模式](design-pattern/2.md)
