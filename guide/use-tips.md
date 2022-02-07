@@ -11,6 +11,8 @@
 
 注意： 我这里设置了二级标题的`id`属性，如果没有设置`id`的话直接用二级标题就行，即`[跳转到 -> 插入数学公式](#插入数学公式)`
 
+可参考： [https://docsify.js.org/#/zh-cn/helpers?id=设置标题的-id-属性](https://docsify.js.org/#/zh-cn/helpers?id=设置标题的-id-属性)
+
 - 跳转到当前站点其他页面
 
 比如： 
@@ -35,6 +37,8 @@
 比如这里提供一个当前站点的文件的下载链接：
 
 [use-tips.md](/guide/use-tips.md ':ignore 点击下载文件')
+
+注意： `GitHub Pages`部署的方式不能用这种方式下载，我用`nginx`部署是可以的，详情见： [快速部署-本地部署](/guide/quick-deploy#本地部署)
 
 ## 插入数学公式 :id=mathjax
 
