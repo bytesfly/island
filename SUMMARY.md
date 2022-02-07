@@ -1,5 +1,6 @@
 * 文档指南
   * [快速部署](guide/quick-deploy.md)
+  * [使用技巧](guide/use-tips.md)
 * 设计模式
   * [设计模式概述](design-pattern/overview.md)
   * [面向对象设计原则](design-pattern/object-oriented-design-principles.md)
