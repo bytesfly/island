@@ -62,20 +62,19 @@
     }
 </script>
 
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      extensions: ["tex2jax.js"],
-      jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-        processEscapes: true
-      },
-      "HTML-CSS": { availableFonts: ["TeX"] }
+    tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+    TeX: {
+    equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+    extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+    Macros: {bm: "\\boldsymbol"}
+    },
+    'HTML-CSS': { linebreaks: { automatic: true } },
+    SVG: { linebreaks: { automatic: true } }
     });
 </script>
+<script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;v=20200504"></script>
 ```
 
 - 行内公式
