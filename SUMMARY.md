@@ -42,6 +42,8 @@
   * [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
   * [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
   * [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
+* 正则表达式
+  * [快速入门](regex/01.md)
 * 程序人生
   * [工作中如何做好技术积累](life/study-vs-work.md)
   * [如何证明你是程序员](life/how-to-prove-that-you-are-a-programmer.md)
