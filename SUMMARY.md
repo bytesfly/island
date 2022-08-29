@@ -1,4 +1,4 @@
-* 文档指南
+* Helpdesk
   * [快速部署](guide/quick-deploy.md)
   * [使用技巧](guide/use-tips.md)
 * 设计模式
